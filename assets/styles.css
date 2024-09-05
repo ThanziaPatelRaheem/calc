@@ -16,6 +16,9 @@ header {
   width: 100%;
   box-shadow: 0, 2px 8px, rgba(0, 0, 0, 0.269);
 }
+h2 {
+  color: rgb(224, 142, 19);
+}
 #calculator-section {
   width: 50%;
   height: 10rem;
