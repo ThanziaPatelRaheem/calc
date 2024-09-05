@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  background-color: rgb(224, 142, 19);
+  color: whitesmoke;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0, 2px 8px, rgba(0, 0, 0, 0.269);
+}
+#calculator-section {
+  width: 50%;
+  height: 10rem;
+  border: 2px solid rgb(224, 142, 19);
+  margin: 2rem auto;
+}
+#calculator-section input {
+  margin: 1rem auto;
+  display: block;
+  width: 10rem;
+  padding: 0.15rem;
+  border: 2px solid rgb(224, 142, 19);
+  font: inherit;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(224, 142, 19);
+}
+#calculator-section input:focus {
+  outline: rgb(224, 142, 19);
+}
+#calculator-section button {
+  background-color: rgb(224, 142, 19);
+  color: whitesmoke;
+  border: 2px solid rgb(224, 142, 19);
+  padding: 1rem;
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+}
+#calculator-section button:focus {
+  outline: none;
+}
+#calculator-section button:hover,
+#calculator-section button:active {
+  background-color: rgb(240, 165, 53);
+  border: 2px solid rgb(240, 165, 53);
+}
+.display-section {
+  text-align: center;
+}
+.results {
+  text-align: center;
+  margin: 2rem auto;
+}
+#calc-description {
+  font-size: 2rem;
+  color: rgb(224, 142, 19);
+}
+#cal-output {
+  font-size: 2rem;
+  color: rgb(224, 142, 19);
+}
